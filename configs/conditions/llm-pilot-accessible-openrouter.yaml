@@ -1,0 +1,27 @@
+conditions:
+  - condition_id: deepseek-graph-intent
+    provider: openai-compatible
+    decision_mode: intent-hierarchical
+    representation: interaction-graph-intent-v1
+    adapter: openai-compatible
+    model: deepseek/deepseek-v4.1-flash-1017
+    base_url: https://openrouter.ai/api/v1
+    api_key_env: OPENROUTER_API_KEY
+    temperature: 0
+    max_output_tokens: 128
+    reasoning_effort: none
+    format_retries: 1
+    response_format: json_object
+  - condition_id: qwen-graph-intent
+    provider: openai-compatible
+    decision_mode: intent-hierarchical
+    representation: interaction-graph-intent-v1
+    adapter: openai-compatible
+    model: qwen/qwen3-235b-a22b-2507
+    base_url: https://openrouter.ai/api/v1
+    api_key_env: OPENROUTER_API_KEY
+    temperature: 0
+    max_output_tokens: 128
+    reasoning_effort: none
+    format_retries: 1
+    response_format: json_object

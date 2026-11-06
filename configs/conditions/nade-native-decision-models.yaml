@@ -1,0 +1,11 @@
+conditions:
+  - condition_id: jev-nade-native
+    provider: jev
+    decision_mode: flat
+    representation: nade-native-v1
+    model: typesafe/jev-1.13
+  - condition_id: decision1-nade-native
+    provider: decision-1
+    decision_mode: flat
+    representation: nade-native-v1
+    model: microsoft/microsoft-decision-1

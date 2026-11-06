@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "highway-decision-cli"
+version = "0.4.0rc1"
+description = "Provider-neutral closed-loop decision-model framework for highway safety testing"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["PyYAML>=6.0"]
+
+[project.scripts]
+highway = "highway_cli.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
