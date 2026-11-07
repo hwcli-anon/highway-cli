@@ -10,7 +10,7 @@ license and copyright notices.
 - Development compatibility commit: `93931218`
 
 Users are responsible for reviewing the upstream license and obtaining any
-models or data required by NADE. A future Highway-CLI license applies only to
+models or data required by NADE. The Highway-CLI MIT license applies only to
 project-owned code and does not alter upstream terms.
 
 ## Remote model services

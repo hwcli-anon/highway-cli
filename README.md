@@ -109,9 +109,16 @@ frozen; public-repository work should focus on documentation, packaging, clean-
 environment reproduction, and privacy review. Do not change experiment logic or
 published defaults without a separately reviewed protocol revision.
 
-## License status
+## License
 
-A project license has not yet been selected by the authors. Until a license is
-added, the code should not be presented as an open-source release. The anonymous
-GitHub repository may be prepared privately, but public release is blocked on
-the license decision and the final anonymity check. See `LICENSE_PENDING.md`.
+Project-owned code in this repository is released under the MIT License. See
+`LICENSE` for the full text.
+
+The MIT grant covers only the code authored for this project. It does not
+relicense NADE, its data, its pretrained models, or any other third-party
+component; those retain their own terms. See `THIRD_PARTY.md` before using or
+redistributing any NADE component.
+
+The copyright holder is written as "The Highway-CLI Authors" to keep the
+repository anonymous during double-blind review. The individual authors and
+their institutional affiliation will be named in the public release.
