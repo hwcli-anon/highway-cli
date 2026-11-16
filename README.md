@@ -35,7 +35,7 @@ Highway-CLI keeps that from happening silently:
 
 ## Framework
 
-The figure above is the whole method, in five moves.
+Figure 1 is the whole method, in five moves.
 
 1. **One state, two facts, built in parallel.** The interface is a pair, I_t = (x_t, C_t): a canonical scene and its relational context. Canonicalization, the relations β, and serialization are deterministic and read the same snapshot, so the edge features in panel (b) cannot drift out of sync with its node features.
 2. **Two queries, one model.** The configured model answers π_θ(z | G_t) for the interaction intent and then π_θ(a | z_t, A_t) for the action. Panel (c) is a zoom of that one block — six intents, a selected subset, then a compatible action — not a second model.
