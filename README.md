@@ -11,9 +11,9 @@
 </div>
 
 <p align="center">
-  <a href="assets/framework.pdf"><b>Figure 1 — Highway-CLI closed-loop framework (PDF)</b></a>
+  <img src="assets/figure1.png" width="100%" alt="Highway-CLI closed-loop framework">
   <br>
-  <sub><b>Figure 1.</b> (a) Closed loop: the interaction-graph interface builds <i>G</i><sub>t</sub> deterministically, the configured model chooses an intent and then an action, and the proposal is mixed with the naturalistic prior before execution. (b) Where the graph's node and edge features come from. (c) The intent-structured action interface, which keeps the original 33-action support intact.</sub>
+  <sub><b>Figure 1.</b> (a) Closed loop: the interaction-graph interface builds <i>G</i><sub>t</sub> deterministically, the configured model chooses an intent and then an action, and the proposal is mixed with the naturalistic prior before execution. (b) Where the graph's node and edge features come from. (c) The intent-structured action interface, which keeps the original 33-action support intact. <a href="assets/framework.pdf">PDF version</a>.</sub>
 </p>
 
 Highway-CLI turns a frozen driving environment into a controllable experiment. The simulator, the critical background-vehicle selector, the executable action support, and the collision detector stay fixed; the model that decides **what the selected background vehicle should do** sits behind one structured interface and can be replaced without touching anything else.
@@ -201,6 +201,7 @@ highway-cli/
   examples/mock_demo/         # smallest end-to-end example
   tests/                      # 88 standard-library unit tests
   tools/check_public_tree.py  # release hygiene check
+  assets/figure1.png          # Figure 1 (README preview)
   assets/framework.pdf        # Figure 1 (PDF)
 ```
 
