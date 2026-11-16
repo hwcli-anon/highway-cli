@@ -11,7 +11,7 @@
 </div>
 
 <p align="center">
-  <img src="assets/framework.png" width="100%" alt="Highway-CLI closed-loop framework">
+  <a href="assets/framework.pdf"><b>Figure 1 — Highway-CLI closed-loop framework (PDF)</b></a>
   <br>
   <sub><b>Figure 1.</b> (a) Closed loop: the interaction-graph interface builds <i>G</i><sub>t</sub> deterministically, the configured model chooses an intent and then an action, and the proposal is mixed with the naturalistic prior before execution. (b) Where the graph's node and edge features come from. (c) The intent-structured action interface, which keeps the original 33-action support intact.</sub>
 </p>
@@ -201,7 +201,7 @@ highway-cli/
   examples/mock_demo/         # smallest end-to-end example
   tests/                      # 88 standard-library unit tests
   tools/check_public_tree.py  # release hygiene check
-  assets/framework.png        # Figure 1
+  assets/framework.pdf        # Figure 1 (PDF)
 ```
 
 ## Documentation
